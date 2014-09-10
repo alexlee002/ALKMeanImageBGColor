@@ -19,6 +19,8 @@
 		3C6507B919C046BE00C224CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6507A119C046BE00C224CF /* UIKit.framework */; };
 		3C6507C119C046BE00C224CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C6507BF19C046BE00C224CF /* InfoPlist.strings */; };
 		3C6507C319C046BE00C224CF /* ALKMeanImageBGColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6507C219C046BE00C224CF /* ALKMeanImageBGColorTests.m */; };
+		3C6507CF19C04A4100C224CF /* UIImage+KMeanColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6507CE19C04A4100C224CF /* UIImage+KMeanColor.m */; };
+		3C6507D219C04DB400C224CF /* ALTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6507D119C04DB400C224CF /* ALTestingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		3C6507BE19C046BE00C224CF /* ALKMeanImageBGColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ALKMeanImageBGColorTests-Info.plist"; sourceTree = "<group>"; };
 		3C6507C019C046BE00C224CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C6507C219C046BE00C224CF /* ALKMeanImageBGColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALKMeanImageBGColorTests.m; sourceTree = "<group>"; };
+		3C6507CD19C04A4100C224CF /* UIImage+KMeanColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KMeanColor.h"; sourceTree = "<group>"; };
+		3C6507CE19C04A4100C224CF /* UIImage+KMeanColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KMeanColor.m"; sourceTree = "<group>"; };
+		3C6507D019C04DB400C224CF /* ALTestingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTestingViewController.h; sourceTree = "<group>"; };
+		3C6507D119C04DB400C224CF /* ALTestingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTestingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +113,13 @@
 		3C6507A319C046BE00C224CF /* ALKMeanImageBGColor */ = {
 			isa = PBXGroup;
 			children = (
+				3C6507CC19C04A2F00C224CF /* KMean */,
 				3C6507AC19C046BE00C224CF /* ALAppDelegate.h */,
 				3C6507AD19C046BE00C224CF /* ALAppDelegate.m */,
 				3C6507AF19C046BE00C224CF /* Images.xcassets */,
 				3C6507A419C046BE00C224CF /* Supporting Files */,
+				3C6507D019C04DB400C224CF /* ALTestingViewController.h */,
+				3C6507D119C04DB400C224CF /* ALTestingViewController.m */,
 			);
 			path = ALKMeanImageBGColor;
 			sourceTree = "<group>";
@@ -142,6 +151,15 @@
 				3C6507BF19C046BE00C224CF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C6507CC19C04A2F00C224CF /* KMean */ = {
+			isa = PBXGroup;
+			children = (
+				3C6507CD19C04A4100C224CF /* UIImage+KMeanColor.h */,
+				3C6507CE19C04A4100C224CF /* UIImage+KMeanColor.m */,
+			);
+			name = KMean;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6507AA19C046BE00C224CF /* main.m in Sources */,
+				3C6507CF19C04A4100C224CF /* UIImage+KMeanColor.m in Sources */,
+				3C6507D219C04DB400C224CF /* ALTestingViewController.m in Sources */,
 				3C6507AE19C046BE00C224CF /* ALAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
