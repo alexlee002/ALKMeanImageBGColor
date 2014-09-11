@@ -1,0 +1,19 @@
+{
+	"name": "ALKMeanImageBGColor",
+	"version": "0.1",
+	"license":{
+		"type": "MIT License",
+		"file": "LICENSE"
+	},
+	"summary": "An UIImage category, use K-Mean algorithms to calculate the recommended background of an image.",
+	"homepage": "https://github.com/alexlee002/ALKMeanImageBGColor",
+	"authors": {
+		"Alex Lee": "https://github.com/alexlee002/"
+	},
+	"source" :{
+		"git" : "https://github.com/alexlee002/ALKMeanImageBGColor",
+		"branch": "master"
+	},
+	"requires_arc": true,
+	"source_files": ["ALKMeanImageBGColor/UIImage+KMeanColor.{h,m}"]
+}
