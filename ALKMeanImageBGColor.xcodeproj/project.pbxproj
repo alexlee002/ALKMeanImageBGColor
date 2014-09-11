@@ -21,7 +21,6 @@
 		3C6507C319C046BE00C224CF /* ALKMeanImageBGColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6507C219C046BE00C224CF /* ALKMeanImageBGColorTests.m */; };
 		3C6507CF19C04A4100C224CF /* UIImage+KMeanColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6507CE19C04A4100C224CF /* UIImage+KMeanColor.m */; };
 		3C6507D219C04DB400C224CF /* ALTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6507D119C04DB400C224CF /* ALTestingViewController.m */; };
-		3C6507D419C14B3A00C224CF /* ALKMeanImageBGColor.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C6507D319C14B3A00C224CF /* ALKMeanImageBGColor.podspec.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		3C6507CE19C04A4100C224CF /* UIImage+KMeanColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KMeanColor.m"; sourceTree = "<group>"; };
 		3C6507D019C04DB400C224CF /* ALTestingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTestingViewController.h; sourceTree = "<group>"; };
 		3C6507D119C04DB400C224CF /* ALTestingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTestingViewController.m; sourceTree = "<group>"; };
-		3C6507D319C14B3A00C224CF /* ALKMeanImageBGColor.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ALKMeanImageBGColor.podspec.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +120,6 @@
 				3C6507A419C046BE00C224CF /* Supporting Files */,
 				3C6507D019C04DB400C224CF /* ALTestingViewController.h */,
 				3C6507D119C04DB400C224CF /* ALTestingViewController.m */,
-				3C6507D319C14B3A00C224CF /* ALKMeanImageBGColor.podspec.json */,
 			);
 			path = ALKMeanImageBGColor;
 			sourceTree = "<group>";
@@ -242,7 +239,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6507A819C046BE00C224CF /* InfoPlist.strings in Resources */,
-				3C6507D419C14B3A00C224CF /* ALKMeanImageBGColor.podspec.json in Resources */,
 				3C6507B019C046BE00C224CF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
