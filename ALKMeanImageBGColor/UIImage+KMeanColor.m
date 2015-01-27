@@ -337,6 +337,7 @@ static int kBitsPerComponent = 8;
             }
         }
     }
+    free(bitmap);
     return color;
 }
 
